@@ -137,7 +137,7 @@ const Index = () => {
               <p className="text-navy-foreground/60 leading-relaxed mb-6">
                 Based in Lilongwe, Malawi, we empower clients with exceptional IT infrastructure, consulting services, and cutting-edge technology that drives digital transformation across the region and beyond.
               </p>
-              <Button asChild variant="outline" className="border-navy-foreground/20 text-navy-foreground hover:bg-navy-foreground/10 gap-2">
+              <Button asChild variant="outline" className="border-navy-foreground/20 text-navy-foreground hover:bg-navy-foreground/10 gap-2" className="w-full sm:w-auto">
                 <Link to="/about">Learn More <ArrowRight size={16} /></Link>
               </Button>
             </motion.div>
