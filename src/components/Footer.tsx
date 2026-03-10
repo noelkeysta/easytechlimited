@@ -10,8 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center mb-4">
-              <img src={logo} alt="Easy Technologies Logo" className="w-9 h-9 rounded-md object-cover" />
-              <span className="ml-2 font-heading font-bold text-navy-foreground text-base">EasyTech</span>
+              <img src={logo} alt="Easy Technologies Logo" className="h-10 rounded-md object-contain" />
             </div>
             <p className="text-navy-foreground/60 text-sm leading-relaxed">
               Premier consultancy firm specializing in technology solutions and expert API integrations.
