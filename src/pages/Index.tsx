@@ -79,7 +79,7 @@ const Index = () => {
               <Button asChild size="lg" className="gap-2 w-full sm:w-auto">
                 <Link to="/services">Explore Services <ArrowRight size={18} /></Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-navy-foreground/20 text-navy-foreground hover:bg-navy-foreground/10 w-full sm:w-auto">
+              <Button asChild size="lg" className="w-full sm:w-auto">
                 <Link to="/contact">Contact Us</Link>
               </Button>
             </motion.div>
