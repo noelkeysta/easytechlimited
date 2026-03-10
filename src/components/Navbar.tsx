@@ -21,11 +21,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-navy/95 backdrop-blur-md border-b border-primary/10">
       <div className="container mx-auto flex items-center justify-between h-16 px-4 sm:px-6">
-        <Link to="/" className="flex items-center gap-2 shrink-0">
+        <Link to="/" className="flex items-center shrink-0">
           <img src={logo} alt="Easy Technologies Logo" className="w-9 h-9 rounded-md object-cover" />
-          <span className="font-heading font-semibold text-base sm:text-lg text-navy-foreground">
-            Easy<span className="text-primary">Tech</span>
-          </span>
         </Link>
 
         {/* Desktop */}
