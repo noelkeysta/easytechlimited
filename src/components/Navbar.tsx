@@ -23,6 +23,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between h-16 px-4 sm:px-6">
         <Link to="/" className="flex items-center shrink-0">
           <img src={logo} alt="Easy Technologies Logo" className="w-9 h-9 rounded-md object-cover" />
+          <span className="ml-2 font-heading font-bold text-navy-foreground text-base">EasyTech</span>
         </Link>
 
         {/* Desktop */}
