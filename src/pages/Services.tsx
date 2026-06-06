@@ -5,12 +5,14 @@ import {
   Cloud, Network, Shield, Monitor,
   Zap, CreditCard, Plug, RefreshCw,
   Cpu, BatteryCharging, Camera, Wrench,
+  Sun, Signal, Eye,
   ArrowRight,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
 import softwareImg from "@/assets/services-software.jpg";
 import cloudImg from "@/assets/services-cloud.jpg";
+import solarCameraImg from "@/assets/services-solar-camera.jpg";
 import apiImg from "@/assets/services-api.jpg";
 import hardwareImg from "@/assets/services-hardware.jpg";
 
@@ -62,6 +64,19 @@ const categories = [
       { icon: BatteryCharging, label: "Inverter & UPS Installation" },
       { icon: Camera, label: "CCTV & Access Control" },
       { icon: Wrench, label: "IT Hardware & Servicing" },
+    ],
+  },
+  {
+    title: "Solar-Powered Cameras",
+    slug: "/services/solar-cameras",
+    icon: Sun,
+    image: solarCameraImg,
+    badge: "New",
+    items: [
+      { icon: Camera, label: "6K Ultra HD Resolution" },
+      { icon: Sun, label: "100% Solar Powered — No Electricity" },
+      { icon: Signal, label: "SIM Card Connectivity" },
+      { icon: Eye, label: "Remote Viewing via Mobile App" },
     ],
   },
 ];
