@@ -155,7 +155,7 @@ const Index = () => {
             <p className="text-primary-foreground/70 max-w-lg mx-auto mb-8">
               Let's discuss how our technology solutions can drive your digital transformation and accelerate growth.
             </p>
-            <Button asChild size="lg" variant="secondary" className="gap-2">
+            <Button asChild size="lg" className="gap-2 bg-primary text-black hover:bg-primary/90 border-0">
               <Link to="/contact">Get In Touch <ArrowRight size={18} /></Link>
             </Button>
           </motion.div>
