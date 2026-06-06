@@ -12,6 +12,7 @@ import SoftwareData from "./pages/services/SoftwareData";
 import InfrastructureSecurity from "./pages/services/InfrastructureSecurity";
 import ApiIntegration from "./pages/services/ApiIntegration";
 import SystemsHardware from "./pages/services/SystemsHardware";
+import SolarCameras from "./pages/services/SolarCameras";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -40,6 +41,7 @@ const App = () => (
           <Route path="/services/infrastructure-security" element={<InfrastructureSecurity />} />
           <Route path="/services/api-integration" element={<ApiIntegration />} />
           <Route path="/services/systems-hardware" element={<SystemsHardware />} />
+          <Route path="/services/solar-cameras" element={<SolarCameras />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
